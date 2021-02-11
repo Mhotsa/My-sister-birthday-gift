@@ -1,0 +1,83 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/QcOsrnU.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    background-image: radial-gradient(#eb2d8f 0%, #2dc5eb 100%);
+    text-align: center;
+    margin-left: 190px;
+}
+.head{
+    font-family: 'Libre Baskerville', serif;
+    padding: 30px;
+    height: 400px;
+}
+.sidebar{
+    background-color: #4f4f4f;
+    text-align: center;
+    font-family: sans-serif;
+    left: 0px;
+    top: 0px;
+    overflow-x: hidden;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+}
+.sidebar a{
+    color: #dbdbdb;
+}
+.sidebar a:hover{
+    color: white;
+}
+#wishes{
+    background-image: linear-gradient(#eef438 0%, #38c5f4 100%);
+    text-align: center;
+    font-family: 'Lora', serif;
+
+    margin-left: 190px;
+}
+#wishes h1{
+    font-family: sans-serif !important;
+}
+#line{
+    width: 200px;
+    height: 15px;
+    background-color: black;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+.Songs{
+    width: 250px;
+    height: 200px;
+    float: right;
+    margin: 10px;
+    transition: 0.5s;
+    overflow: scroll;
+}
+.Songs:hover{
+    transform: scale(1.2)
+}
+#Art{
+    background-image: radial-gradient(#ff6bbc 0%, #ff6 100%);
+    text-align: center;
+    margin-left: 190px;
+    float: right;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 28px;
+    width: 100%;
+}
+.Art_Img{
+    width: 500px;
+    margin: 18px auto;
+    height: 550px;
+}
+#hello{
+    margin-left: 190px;
+    text-align: center;
+    background-image: radial-gradient(#ffe66b 0%, #6be1ff 100%);
+}
